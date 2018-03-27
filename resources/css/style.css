@@ -28,6 +28,8 @@ header h1{
     margin: 200px 0 0 300px;
   -webkit-animation-duration: 4s;
   -webkit-animation-delay: 1s;
+  animation-duration: 4s;
+  animation-delay: 1s;
 }
 
 
@@ -41,6 +43,8 @@ header h2{
     transform: scale(100, 100);
   -webkit-animation-duration: 6s;
   -webkit-animation-delay: 2s;
+  animation-duration: 6s;
+  animation-delay: 2s;
 }
 
 nav{
@@ -49,6 +53,8 @@ nav{
     justify-content: flex-end;
     -webkit-animation-duration: 6s;
     -webkit-animation-delay: 3s;
+    animation-duration: 6s;
+    animation-delay: 3s;
 }
 
 nav a{
@@ -169,4 +175,19 @@ p2{
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
+
+@media only screen and (max-width:900px){
+    
+    header h1{
+        font-size: 5rem;
+        margin: 200px 0 0 10rem;
+    }
+
+    header h2{
+    
+        margin-left: 160px;
+        padding-right:200px;
+    }
+}
+
 
